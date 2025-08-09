@@ -4,6 +4,7 @@ namespace PersonalTaskManagement.Domain.Entities
 {
     public class User
     {
+        
         public string PublicKey { get; set; } = Guid.NewGuid().ToString("N");
 
         [Required, MaxLength(50)]
